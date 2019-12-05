@@ -50,7 +50,7 @@
         </Rectangle>
 
         <!--Stand-->
-        <DropDownButton Height="80" Width="680" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Stand" FontFamily="98" FontSize="60" Background="#99BDBDBD" Foreground="#A304141E">
+        <DropDownButton BorderBrush="#FF5A5A5A" BorderThickness="2" Height="80" Width="680" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Stand" FontFamily="98" FontSize="60" Background="#99BDBDBD" Foreground="#A304141E">
             <DropDownButton.Flyout>
                 <Flyout x:Name="DropdownFlyout" Placement="Full">
                     <ListView ItemsSource="{x:Bind DropdownItems}"
