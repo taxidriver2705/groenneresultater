@@ -38,7 +38,7 @@
         <Button Content="Opret Produkt" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="7" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="0,0,0,0" Height="120"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" Width="680" />
 
         <!--TopBar-->
-        <Button Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="2" BorderBrush="White" Background="#00797ED9" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" />
+        <Button Content="TILBAGE"  Grid.Row="0" Grid.Column="0" BorderThickness="2" BorderBrush="White" Background="#00797ED9" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" />
         <Button Content="ANNULLER" Grid.Row="0" Grid.Column="2"  BorderThickness="2" BorderBrush="White" Background="#00000084" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" />
         <Rectangle  Grid.Row="0" Grid.ColumnSpan="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Stroke="#FFBDBDBD">
             <Rectangle.Fill>

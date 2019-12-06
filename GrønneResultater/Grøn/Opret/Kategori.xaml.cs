@@ -26,5 +26,6 @@ namespace Grøn.Opret
         {
             this.InitializeComponent();
         }
+
     }
 }

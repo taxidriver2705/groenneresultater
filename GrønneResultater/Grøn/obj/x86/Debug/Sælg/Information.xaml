@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="Grøn.Sælg.Information"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Grøn.Sælg"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#00807F">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Frame BorderThickness="2" BorderBrush="Black"/>
+
+        <!--Overskifter-->
+        <TextBlock Text="Information" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+        <TextBlock Text="Indkøbskurv" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+
+        <!--Information Text-->
+        <TextBlock  Text="Telefon" FontSize="50" Grid.Row="2" Grid.Column="1"  FontFamily="98" Margin="0,0,0,0" Foreground="White" />
+        <TextBox Background="#FFBAD9D6" FontFamily="98" FontSize="60" Grid.Row="2" Grid.Column="1" Width="605" Height="80" BorderBrush="#FF5A5A5A" BorderThickness="2" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Left" />
+        <TextBlock  Text="Fornavn" FontSize="50" Grid.Row="3" Grid.Column="1"  FontFamily="98" Margin="0,0,0,0" Foreground="White"/>
+        <TextBox Background="#FFBAD9D6" FontFamily="98" FontSize="60" Grid.Row="3" Grid.Column="1" Width="605" Height="80" BorderBrush="#FF5A5A5A" BorderThickness="2" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Left" />
+        <TextBlock x:ConnectionId='2'  Text="Efternavn" FontSize="50" Grid.Row="4" Grid.Column="1"  FontFamily="98" Margin="0,0,0,0" Foreground="White"                                              />
+        <TextBox  Background="#FFBAD9D6" FontFamily="98" FontSize="60" Grid.Row="4" Grid.Column="1" Width="605" Height="80" BorderBrush="#FF5A5A5A"  BorderThickness="2" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Left" />
+        <Button x:ConnectionId='3'                      Content="FÆRDIG" Background="Green" BorderThickness="2" BorderBrush="#FF5A5A5A" HorizontalAlignment="Center" Foreground="#FFE6E6E6" Grid.Row="5" VerticalAlignment="Center" FontFamily="98" FontSize="50" FontWeight="SemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0" Width="350" Height="80" Grid.Column="1"/>
+
+
+        <!--Indkøbskurv/Ordre-->
+        <Rectangle Grid.Row="2" Fill="#FFBAD9D6" Margin="0,0,2,10" Stroke="#C0C0C0" StrokeThickness="6" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="4" />
+
+        <!--TopBar-->
+        <Rectangle  Grid.Row="0" Grid.ColumnSpan="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Stroke="#FFBDBDBD">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="1,1" StartPoint="0.5,0">
+                    <GradientStop Color="#0F0F71"/>
+                    <GradientStop Color="#1A7FCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button Content="TILBAGE" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
+        <Button Content="ANNULLER" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" BorderThickness="2" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
+
+    </Grid>
+</Page>
+

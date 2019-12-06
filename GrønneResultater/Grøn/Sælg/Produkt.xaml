@@ -40,7 +40,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Button Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
+        <Button  Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
         <Button Content="ANNULLER" Grid.Row="0" Grid.Column="1" BorderThickness="2" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
 
         <!--Example Buttons-->

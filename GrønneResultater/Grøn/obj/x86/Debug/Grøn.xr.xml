@@ -53,14 +53,15 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Stroke" />
       <RootProperty Name="Fill" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />
@@ -108,6 +109,8 @@
     <RootType FullName="Grøn.Opret.Enhed" />
     <RootType FullName="Grøn.Opret.Kategori" />
     <RootType FullName="Windows.UI.Xaml.Controls.DropDownButton">
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
