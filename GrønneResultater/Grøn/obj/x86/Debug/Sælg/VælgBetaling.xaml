@@ -22,9 +22,9 @@
         </Grid.ColumnDefinitions>
         
         <!--Indkøbskurv knapper-->
-        <Button x:ConnectionId='2'                       Content="Fortryd" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="Silver" FontFamily="98" FontSize="45" Foreground="Black" Canvas.ZIndex="4"  Margin="2,0,2,2" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
-        <Button x:ConnectionId='3'                      Content="Kort" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="2,0,2,62" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
-        <Button x:ConnectionId='4'                       Content="Kontant" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="2,0,2,122" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
+        <Button Content="Fortryd" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="Silver" FontFamily="98" FontSize="45" Foreground="Black" Canvas.ZIndex="4"  Margin="2,0,2,2" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
+        <Button Content="Kort" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="2,0,2,62" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
+        <Button Content="Kontant" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="2,0,2,122" Height="60" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" />
         
         
         <!--Overskifter-->
@@ -40,7 +40,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Button x:ConnectionId='5'                       Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
+        <Button Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
         <Button Content="ANNULLER" Grid.Row="0" Grid.Column="1" BorderThickness="2" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
 
 

@@ -28,11 +28,11 @@
 
 
         <TextBox Background="#99BDBDBD" FontFamily="98" FontSize="60" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Width="680" Height="70" BorderBrush="#FF5A5A5A" BorderThickness="2" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Center"/>
-        <Button x:ConnectionId='3'                      Content="Opret Brand" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="5" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="0,0,0,0" Height="78" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" Width="680" />
+        <Button  Content="Opret Brand" Grid.Column="0" Grid.ColumnSpan="2" BorderBrush="#FF5A5A5A" BorderThickness="2" Grid.Row="5" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="45" Foreground="#FFE6E6E6" Canvas.ZIndex="4"  Margin="0,0,0,0" Height="78" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" Width="680" />
         
         <!--Example Buttons-->
 
-        <Button x:ConnectionId='4'                      Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Background="#FFF2EC9B" FontFamily="98" BorderBrush="#FF5A5A5A" BorderThickness="2" Height="80" Width="450" Content="Test" FontSize="60" />
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Background="#FFF2EC9B" FontFamily="98" BorderBrush="#FF5A5A5A" BorderThickness="2" Height="80" Width="450" Content="Test" FontSize="60" />
 
         <!--TopBar-->
         <Rectangle  Grid.Row="0" Grid.ColumnSpan="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Stroke="#FFBDBDBD">
@@ -43,7 +43,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Button x:ConnectionId='5' Content="TILBAGE"                       Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
+        <Button Content="TILBAGE" Grid.Row="0" Grid.Column="0" BorderThickness="1" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
         <Button Content="ANNULLER" Grid.Row="0" Grid.Column="1" BorderThickness="2" BorderBrush="White" Background="Transparent" Height="100" FontFamily="Assets\M 8pt.ttf #98" FontSize="60" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="#FFE6E6E6" VerticalAlignment="Stretch" Canvas.ZIndex="4" Margin="1,0,0,0" />
 
     </Grid>

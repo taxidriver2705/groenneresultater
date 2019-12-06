@@ -28,7 +28,7 @@
 
         <!--Overskifter-->
         <TextBlock Text="Information" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-        <TextBlock Text="Indkøbskurv" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+        <TextBlock Text="Ordre" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
 
         <!--Information Text-->
         <TextBlock  Text="Telefon" FontSize="50" Grid.Row="2" Grid.Column="1"  FontFamily="98" Margin="0,0,0,0" Foreground="White" />
@@ -37,7 +37,7 @@
         <TextBox Background="#FFBAD9D6" FontFamily="98" FontSize="60" Grid.Row="3" Grid.Column="1" Width="605" Height="80" BorderBrush="#FF5A5A5A" BorderThickness="2" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Left" />
         <TextBlock x:ConnectionId='2'  Text="Efternavn" FontSize="50" Grid.Row="4" Grid.Column="1"  FontFamily="98" Margin="0,0,0,0" Foreground="White"                                              />
         <TextBox  Background="#FFBAD9D6" FontFamily="98" FontSize="60" Grid.Row="4" Grid.Column="1" Width="605" Height="80" BorderBrush="#FF5A5A5A"  BorderThickness="2" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" HorizontalTextAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" HorizontalAlignment="Left" />
-        <Button x:ConnectionId='3'                      Content="FÆRDIG" Background="Green" BorderThickness="2" BorderBrush="#FF5A5A5A" HorizontalAlignment="Center" Foreground="#FFE6E6E6" Grid.Row="5" VerticalAlignment="Center" FontFamily="98" FontSize="50" FontWeight="SemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0" Width="350" Height="80" Grid.Column="1"/>
+        <Button Content="FÆRDIG" Background="Green" BorderThickness="2" BorderBrush="#FF5A5A5A" HorizontalAlignment="Center" Foreground="#FFE6E6E6" Grid.Row="5" VerticalAlignment="Center" FontFamily="98" FontSize="50" FontWeight="SemiBold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,0,0" Width="350" Height="80" Grid.Column="1"/>
 
 
         <!--Indkøbskurv/Ordre-->

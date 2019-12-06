@@ -33,7 +33,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <!--Betal knap-->
-        <Button x:ConnectionId='2'                     Content="Betal" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="1" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="60" Foreground="White" Canvas.ZIndex="4"  Margin="2,0,2,2" Height="70"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" FocusVisualPrimaryBrush="#FFF2EC9B" />
+        <Button Content="Betal" Grid.Column="1" BorderBrush="#FF5A5A5A" BorderThickness="1" Grid.Row="2" VerticalAlignment="Bottom" Background="#FF026A60" FontFamily="98" FontSize="60" Foreground="White" Canvas.ZIndex="4"  Margin="2,0,2,2" Height="70"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" FocusVisualPrimaryBrush="#FFF2EC9B" />
 
         <!--Overskifter-->
         <TextBlock Text="Kategorier" Grid.Column="0" Grid.Row="1" FontSize="70" TextAlignment="Center" FontWeight="Bold" FontFamily="98" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
@@ -48,7 +48,7 @@
 
         <!--Example Buttons-->
 
-        <Button x:ConnectionId='3'                      Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Background="#FFF2EC9B" FontFamily="98" BorderBrush="#FF5A5A5A" BorderThickness="2" Height="100" Width="450" Content="Test" FontSize="70" />
+        <Button Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Background="#FFF2EC9B" FontFamily="98" BorderBrush="#FF5A5A5A" BorderThickness="2" Height="100" Width="450" Content="Test" FontSize="70" />
         <!--Indkøbskurv/Ordre-->
         <Rectangle Grid.Row="2" Fill="#FFBAD9D6" Margin="-4,0,2,0" Stroke="#C0C0C0" StrokeThickness="6" Grid.Column="1" />
 
