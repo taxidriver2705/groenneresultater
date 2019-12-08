@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Geaji\\source\\repos\\Grøn\\Grøn\\Grøn.csproj": {}
+    "C:\\Users\\Geaji\\Downloads\\groenneresultater\\GrønneResultater\\Grøn\\Grøn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Geaji\\source\\repos\\Grøn\\Grøn\\Grøn.csproj": {
+    "C:\\Users\\Geaji\\Downloads\\groenneresultater\\GrønneResultater\\Grøn\\Grøn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Geaji\\source\\repos\\Grøn\\Grøn\\Grøn.csproj",
+        "projectUniqueName": "C:\\Users\\Geaji\\Downloads\\groenneresultater\\GrønneResultater\\Grøn\\Grøn.csproj",
         "projectName": "Grøn",
-        "projectPath": "C:\\Users\\Geaji\\source\\repos\\Grøn\\Grøn\\Grøn.csproj",
+        "projectPath": "C:\\Users\\Geaji\\Downloads\\groenneresultater\\GrønneResultater\\Grøn\\Grøn.csproj",
         "packagesPath": "C:\\Users\\Geaji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Geaji\\source\\repos\\Grøn\\Grøn\\obj\\",
+        "outputPath": "C:\\Users\\Geaji\\Downloads\\groenneresultater\\GrønneResultater\\Grøn\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

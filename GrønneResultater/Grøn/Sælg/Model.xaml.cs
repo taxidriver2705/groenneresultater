@@ -26,5 +26,6 @@ namespace Grøn.Sælg
         {
             this.InitializeComponent();
         }
+
     }
 }
